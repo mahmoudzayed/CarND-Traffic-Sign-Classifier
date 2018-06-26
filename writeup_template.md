@@ -120,8 +120,8 @@ I tunned three parameter the learning rate, epochs and batch size. I stoped tuni
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][Childern crossing (28).jpg] ![alt text][Keep Right (39).jpg] ![alt text][roundabout(40).jpg] 
+![alt text][stop (14).jpg] ![alt text][Speed limit (1).jpg]
 
 The first image might be difficult to classify because ...
 
@@ -129,32 +129,68 @@ The first image might be difficult to classify because ...
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
+| Image 			    |Prediction 									| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Stop Sign     		| Stop sign   									| 
+| Childern crossing 	| General caution								|
+| Keep Right			| Keep Right									|
+| 30 km/h   			| 30 km/h   					 				|
+| roundabout			| no passing for vehicles ove 3.5 metric tons	|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 60%. This compares favorably to the accuracy on the test set of 90% which is way off so we need to improve or data set and model architecture.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
-
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, the model is not sure that this is a 30km/h sign (probability of 0.21), and the image does contain a 30km/h sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| .21         			| 30km/h   									| 
+| .16     				| 50km/h 										|
+| .09					| Wild animal road								|
+| .07	      			| 70km/h    					 				|
+| .07				    | 120km/h           							|
 
 
-For the second image ... 
+For the second image, the model is pretty sure that this is a Keep right sign (probability of 0.79), and the image does contain a keep right sign. The top five soft max probabilities were
 
 
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .79         			| Keep right   									| 
+| .32     				| End of all speed 								|
+| .17					| general caution								|
+| .15	      			| stop      					 				|
+| .10				    | 80km/h            							|
+
+
+For the thid image, the model is sure that this is a general caution sign (probability of 0.08), and the image does contain a Childen crossing sign. The top five soft max probabilities were
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .08         			| general caution   							| 
+| .06     				| keep right 				    				|
+| .03					| pedistrians					    			|
+| .03	      			| traffic signals     			 				|
+| .02				    | bumpy road           							|
+
+For the forth image, the model is sure that this is a no passing for vehicles ove 3.5 metric tons sign (probability of 0.13), and the image does contain a Roundabout sign. The top five soft max probabilities were
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .13         			| no passing for vehicles ove 3.5 metric tons   |  
+| .12     				| slippery road     							|
+| .11					| no passing							    	|
+| .10	      			| roundabout      					 			|
+| .10				    | priority            							|
+
+For the fifth image, the model is sure that this is a stop sign (probability of 0.08), and the image does contain a stop sign. The top five soft max probabilities were
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .08         			| stop      									| 
+| .04     				| priority road 								|
+| .04					| keep right    								|
+| .04	      			| no vehicle   					 				|
+| .03				    | yeild              							|
