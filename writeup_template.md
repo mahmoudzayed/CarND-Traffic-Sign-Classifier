@@ -120,12 +120,11 @@ I tunned three parameter the learning rate, epochs and batch size. I stoped tuni
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](Childern crossing (28).jpg)
-![alt text](Keep Right (39).jpg)
-![alt text](roundabout(40).jpg)
-![alt text](stop (14).jpg)
-![alt text](Speed limit (1).jpg)
-
+![alt text]('Speed limit (1).jpg')
+![alt text]('Keep Right (39).jpg')
+![alt text]('Childern crossing (28).jpg')
+![alt text]('roundabout(40).jpg')
+![alt text]('stop (14).jpg')
 The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
