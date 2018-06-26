@@ -120,8 +120,8 @@ I tunned three parameter the learning rate, epochs and batch size. I stoped tuni
 
 Here are five German traffic signs that I found on the web:
 
-![28](Childern crossing (28).jpg)
-![38](Keep Right (39).jpg)
+![alt text](Childern crossing (28).jpg)
+![alt text](Keep Right (39).jpg)
 ![alt text](roundabout(40).jpg)
 ![alt text](stop (14).jpg)
 ![alt text](Speed limit (1).jpg)
