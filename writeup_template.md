@@ -50,7 +50,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image.jpg]
+ ![](image.jpg)
 
 ### Design and Test a Model Architecture
 
