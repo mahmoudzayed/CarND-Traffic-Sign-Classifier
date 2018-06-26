@@ -125,7 +125,8 @@ Here are five German traffic signs that I found on the web:
 ![alt text](Childerncrossing(28).jpg)
 ![alt text](roundabout(40).jpg)
 ![alt text](stop(14).jpg)
-The first image might be difficult to classify because ...
+
+some image might be difficult to classify because there are very little representation in data set and/or images quality.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
